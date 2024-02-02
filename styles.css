@@ -27,10 +27,22 @@
     grid-row: 1 / 2;
 }
 
+#logo{
+    font-size: 24px;
+}
+
+#logo img{
+    grid-column: 1 / 2;
+}
+
+#logo p{
+    grid-column: 2 / 3;
+}
+
 #main{
     display: grid;
     grid-template-columns: 300px 1fr;
-    grid-template-rows: 200px 1fr;
+    grid-template-rows: 100px 1fr;
 }
 
 #nav{
@@ -62,11 +74,23 @@
 }
 
 #sidebar{
+    display: grid;
+    grid-template-columns: 50px 250px;
+    grid-template-rows: 100px 300px 300px;
     grid-row: 1 / 4;
 }
 
 #sidebar ul{
+    grid-column: 2 / 3;
+    grid-row: 2 / 4;
+    font-size: 24px;
+    line-height: 50px;
     list-style-type: none;
+}
+
+#sidebar > ul > li > img{
+    width: 20px;
+    height: 20px;
 }
 
 #trending{
