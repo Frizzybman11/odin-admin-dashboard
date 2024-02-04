@@ -54,8 +54,14 @@ h1{
 
 #logo{
     font-size: 24px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin-left: 10px;
     margin-top: 10px;
+}
+
+#logo > span{
+    vertical-align: middle;
 }
 
 #logo-icon{
@@ -108,7 +114,7 @@ h1{
 #sidebar{
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 100px 600px;
+    grid-template-rows: 75px 600px;
     grid-row: 1 / 4;
     background-color: #0ea5e9;
     max-width: 260px;
@@ -117,20 +123,24 @@ h1{
 
 #sidebar ul{
     grid-row: 2 / 3;
-    font-size: 24px;
-    line-height: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 45px;
     list-style-type: none;
 }
 
 .sidebar-list > img{
     width: 20px;
     height: 20px;
+    margin-left: -10px;
     vertical-align: middle;
     filter: invert(100%) sepia(3%) saturate(1088%) hue-rotate(267deg) brightness(119%) contrast(100%);
 }
 
 .sidebar-list > span{
     vertical-align: middle;
+    padding-left: 10px;
 }
 
 #trending{
