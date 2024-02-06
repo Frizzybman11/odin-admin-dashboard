@@ -10,6 +10,7 @@
     border-radius: 10px;
     background-color: white;
     box-shadow: 2px 2px 2px 1px #00000036;
+    padding-right: 25px;
 }
 
 .announcement-description{
@@ -19,6 +20,7 @@
 .announcement-title{
     font-size: 14px;
     margin-bottom: -10px;
+    font-weight: bold;
 }
 
 body{
@@ -104,8 +106,29 @@ body{
     vertical-align: middle;
 }
 
+.project-card{
+    border-style: none;
+    border-radius: 10px;
+    border-left-style: solid;
+    border-left-color: rgb(255, 196, 0);
+    border-left-width: 8px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    background-color: white;
+    padding: 15px;
+    box-shadow: 2px 2px 2px 1px #00000036;
+}
+
+.project-title{
+    font-weight: bold;
+}
+
 #projects{
     grid-row: 1 / 3;
+}
+
+#projects > h1{
+    grid-row: 1 / 2;
 }
 
 #profile{
@@ -122,23 +145,6 @@ body{
 #profile-pic{
     border-radius: 30px;
     vertical-align: middle;
-}
-
-.project-card{
-    border-style: none;
-    border-radius: 10px;
-    border-left-style: solid;
-    border-left-color: rgb(255, 196, 0);
-    border-left-width: 8px;
-    border-top-left-radius: 8px;
-    border-bottom-left-radius: 8px;
-    background-color: white;
-    padding: 15px;
-    box-shadow: 2px 2px 2px 1px #00000036;
-}
-
-#projects > h1{
-    grid-row: 1 / 2;
 }
 
 #search{
@@ -196,7 +202,11 @@ body{
 }
 
 #sideinfo{
-    margin-left: 10px;
+    display: grid;
+}
+
+#sideinfo h1{
+    margin-left: 20px;
 }
 
 #trending{
@@ -212,6 +222,7 @@ body{
     padding-top: 20px;
     background-color: white;
     box-shadow: 2px 2px 2px 1px #00000036;
+    padding-right: 25px;
 }
 
 .trending-description{
