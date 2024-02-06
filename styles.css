@@ -25,9 +25,12 @@
 }
 
 body{
+    display: grid;
+    grid-template-rows: 1fr;
     margin: 0;
-    height: 100%;
+    height: 100vw;
     width: 100%;
+    overflow: hidden;
 }
 
 #cards{
@@ -204,10 +207,13 @@ body{
 
 #sideinfo{
     display: grid;
+    gap: 4px;
+    grid-template-rows: 346px 346px;
 }
 
 #sideinfo h1{
     margin-left: 20px;
+    margin-bottom: -5px;
 }
 
 #trending{
