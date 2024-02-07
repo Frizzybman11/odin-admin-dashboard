@@ -225,7 +225,7 @@ body{
 
 #sideinfo{
     display: grid;
-    grid-template-rows: 324px 324px;
+    grid-template-rows: 323px 1fr;
 }
 
 #sideinfo h1{
