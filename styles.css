@@ -2,6 +2,11 @@
     grid-column: 2 / 3;
 }
 
+#announcements hr{
+    width: 100%;
+    opacity: 25%;
+}
+
 #announcements > ul{
     display: grid;
     list-style-type: none;
