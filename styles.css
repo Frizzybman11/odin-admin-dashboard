@@ -232,7 +232,7 @@ body{
 #sideinfo{
     display: grid;
     grid-template-rows: 323px 1fr;
-    gap: 15px;
+    gap: 20px;
 }
 
 #sideinfo h1{
@@ -258,7 +258,7 @@ body{
 }
 
 .trending-description{
-    font-size: 14px;
+    font-size: 12px;
 }
 
 .trending-list{
@@ -267,7 +267,7 @@ body{
 }
 
 .trending-name{
-    font-size: 16px;
+    font-size: 14px;
     margin-bottom: 0px;
 }
 
