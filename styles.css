@@ -390,3 +390,7 @@ body{
 #welcome-text > p{
     font-weight: bold;
 }
+
+#welcome-username{
+    width: 250px;
+}
