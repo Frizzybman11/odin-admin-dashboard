@@ -1,6 +1,6 @@
-@-moz-document url-prefix() {
-    #trending{
-        margin-top: 75px;
+@supports (-moz-transform: translate(0, 0)) {
+    #trending {
+      margin-top: 75px;
     }
   }
 
