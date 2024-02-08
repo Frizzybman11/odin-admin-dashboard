@@ -315,7 +315,7 @@ body{
 #sideinfo{
     display: grid;
     grid-template-rows: 323px 1fr;
-    gap: 20px;
+    gap: 40px;
 }
 
 #sideinfo h1{
@@ -325,7 +325,6 @@ body{
 
 #trending{
     grid-column: 2 / 3;
-    padding-top: 20px;;
 }
 
 #trending > ul{
