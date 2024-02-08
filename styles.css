@@ -393,4 +393,5 @@ body{
 
 #welcome-username{
     width: 300px;
+    word-wrap: break-word;
 }
