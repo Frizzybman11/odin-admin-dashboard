@@ -398,6 +398,6 @@ body{
 
 @-moz-document url-prefix() {
     #trending{
-        margin-top: 75px;
+        margin-top: 70px;
     }
 }
