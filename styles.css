@@ -137,6 +137,11 @@ body{
     font-weight: bold;
 }
 
+#nav-bar button:hover{
+    background-color: lightblue;
+    cursor: pointer;
+}
+
 #nav-bar > ul{
     display: grid;
     grid-template-columns: repeat(3, 100px);
