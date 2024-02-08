@@ -223,18 +223,27 @@ body{
 #search-bar{
     background-color: #e2e8f0;
     line-height: 25px;
-    margin-left: 20px;
+    margin-left: 30px;
     width: 550px;
     border-style: none;
     border-width: 1px;
     border-radius: 16px;
     vertical-align: middle;
+    padding-left: 10px;
+    text-align: center;
+}
+
+#search-bar[type="text"]:focus{
+    border-style: none;
+    border-width: 1px;
 }
 
 #search-icon{
     width: 20px;
     height: 20px;
     vertical-align: middle;
+    position: fixed;
+    margin-top: 4px;
 }
 
 #sidebar{
