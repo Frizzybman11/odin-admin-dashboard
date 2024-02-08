@@ -159,6 +159,13 @@ body{
     vertical-align: middle;
     margin-left: -40px;
     margin-right: 30px;
+    padding: 5px;
+}
+
+#notification-icon:hover{
+    cursor: pointer;
+    background-color: lightgray;
+    border-radius: 5px;
 }
 
 .project-card{
@@ -209,10 +216,18 @@ body{
     vertical-align: middle;
 }
 
+#profile-username:hover{
+    cursor: pointer;
+}
+
 #profile-pic{
     border-radius: 30px;
     vertical-align: middle;
     margin-right: 30px;
+}
+
+#profile-pic{
+    cursor: pointer;
 }
 
 #search{
