@@ -1,3 +1,9 @@
+@-moz-document url-prefix() {
+    #trending{
+        margin-top: 75px;
+    }
+  }
+
 #announcements{
     grid-column: 2 / 3;
 }
@@ -314,7 +320,8 @@ body{
 
 #sideinfo{
     display: grid;
-    grid-template-rows: 375px 375px;
+    grid-template-rows: 323px 1fr;
+    gap: 20px;
 }
 
 #sideinfo h1{
