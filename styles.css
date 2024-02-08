@@ -314,7 +314,7 @@ body{
 
 #sideinfo{
     display: grid;
-    grid-template-rows: 350px 350px;
+    grid-template-rows: 375px 375px;
 }
 
 #sideinfo h1{
